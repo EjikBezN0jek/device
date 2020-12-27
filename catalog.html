@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Device</title>
+</head>
+<body>
+<header>
+  <div class="header__container header__container-short container">
+    <a class="logo" href="/">
+      <img src="./img/logo.png" alt="logo" class="logo__img">
+    </a>
+
+    <nav>
+      <div class="submenu">
+        <label class="search w-50">
+          <input type="text" class="search__input" placeholder="Поиск по сайту">
+          <div class="search-focus">
+            <button class="found-button">Найти</button>
+            <div class="underline"></div>
+          </div>
+        </label>
+
+        <div class="login">
+          <a href="#" class="login__link link">Валентин Петухов</a>
+          <a href="#" class="link-grey link logout">Выйти</a>
+        </div>
+        <div class="compare">
+          <a href="#" class="compare__link link">Сравнить</a>
+        </div>
+        <div class="cart">
+          <a href="#" class="cart__link link">Корзина</a>
+        </div>
+      </div>
+      <ul class="menu">
+        <li class="menu__item w-50 menu__item--catalog">
+          <a href="#" class="menu__link link catalog">Каталог товаров</a>
+        </li>
+        <li class="menu__item menu__item--delivery">
+          <a href="#" class="menu__link link">Доставка</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link link">Гарантия</a>
+        </li>
+        <li class="menu__item menu__item--contacts">
+          <a href="#" class="menu__link link">Контакты</a>
+        </li>
+      </ul>
+
+    </nav>
+  </div>
+</header>
+<main class="catalog__main">
+  <div class="category__container container">
+    <p class="title">Моноподы для селфи</p>
+    <ul class="breadcrumbs">
+      <li class="way breadcrumbs__main">
+        <a href="/" class="link link-grey">Главная</a>
+      </li>
+      <li class="way breadcrumbs__catalog">
+        <a href="/catalog.html" class="link link-grey">Каталог товаров</a>
+      </li>
+      <li class="way breadcrumbs__category">
+        <a href="#" class="link link-grey">Моноподы для селфи</a>
+      </li>
+    </ul>
+
+  </div>
+  <div class="main__content">
+    <div class="goods">
+      <div class="goods__container container">
+        <div class="filter">
+          <div class="filter__title">Фильтр:</div>
+          <div class="filter__content">
+            <p class="filter__item--title h3">Стоимость</p>
+            <div class="range-slider">
+              <div class="grey-decor-line"></div>
+              <div class="range-slider__label">
+                <p class="range-slider__label--item">от 0</p>
+                <p class="range-slider__label--item">до 5000</p>
+              </div>
+
+
+            </div>
+            <p class="filter__item--title h3">Цвет</p>
+            <div class="options">
+              <label  class="option">
+                <input type="checkbox" class="option__input hidden" name="color" value="black">
+                <span class="option__control"></span>
+                <span class="option__title">Черный</span>
+              </label>
+              <label  class="option">
+                <input type="checkbox" class="option__input hidden" name="color" value="white">
+                <span class="option__control"></span>
+                <span class="option__title">Белый</span>
+              </label>
+              <label  class="option">
+                <input type="checkbox" class="option__input hidden" name="color" value="blue">
+                <span class="option__control"></span>
+                <span class="option__title">Синий</span>
+              </label>
+              <label  class="option">
+                <input type="checkbox" class="option__input hidden" name="color" value="red">
+                <span class="option__control"></span>
+                <span class="option__title">Красный</span>
+              </label>
+              <label  class="option">
+                <input type="checkbox" class="option__input hidden" name="color" value="pink">
+                <span class="option__control"></span>
+                <span class="option__title">Розовый</span>
+              </label>
+            </div>
+            <p class="filter__item--title h3">Bluetooth</p>
+            <div class="radio-set">
+              <label class="radio">
+              <input type="radio" class="radio__input hidden" name="Bluetooth" value="yes" checked>
+              <span class="radio__control"></span>
+              <span class="option__title">Есть</span>
+            </label>
+              <label class="radio">
+                <input type="radio" class="radio__input hidden" name="Bluetooth" value="no">
+                <span class="radio__control"></span>
+                <span class="option__title">Нет</span>
+              </label>
+            </div>
+            <a href="#" class="button ">Показать</a>
+          </div>
+        </div>
+
+        <div class= "products">
+          <div class="products__sort">
+            <p class="products__sort--title">Сортировка:</p>
+            <div class="sort-tabs">
+                <a href="#" class="link sort-tabs--item">По цене</a>
+                <a href="#" class="link sort-tabs--item">По типу</a>
+                <a href="#" class="link sort-tabs--item">По популярности</a>
+            </div>
+            <div class="arrows">
+              <img src="./svg/icon-up-dir.svg" alt="up" class="arrow__item up">
+              <img src="./svg/icon-down-dir.svg" alt="down" class="arrow__item down">
+            </div>
+          </div>
+
+          <div class="products__content">
+            <div class="product__item">
+              <a href="#"><img src="./img/item-1-jpg.png" alt="item-1"></a>
+              <div class="img__hidden">
+                <a href="#" class="button">В корзину</a>
+                <a href="#" class="add link">Добавить к сравнению</a>
+              </div>
+              <div class="product__item--label">
+                <a href="#" class="product__link link">Любительская селфи-палка</a>
+                <p class="product__price">500 руб.</p>
+              </div>
+            </div>
+            <div class="product__item">
+              <a href="#"><img src="./img/item-2-jpg.png" alt="item-2"></a>
+              <div class="img__hidden">
+                <a href="#" class="button">В корзину</a>
+                <a href="#" class="add link">Добавить к сравнению</a>
+              </div>
+              <div class="product__item--label">
+                <a href="#" class="product__link link">Профессиональная <br> селфи-палка </a>
+                <p class="product__price">1 500 руб.</p>
+              </div>
+            </div>
+            <div class="product__item">
+              <a href="#"><img src="./img/item-3-jpg.png" alt="item-3"></a>
+              <div class="img__hidden">
+                <a href="#" class="button">В корзину</a>
+                <a href="#" class="add link">Добавить к сравнению</a>
+              </div>
+              <div class="product__item--label">
+                <a href="#" class="product__link link">Непотопляемая селфи-палка</a>
+                <p class="product__price">2 500 руб.</p>
+              </div>
+            </div>
+            <div class="product__item">
+              <a href="#"><img src="./img/item-4-jpg.png" alt="item-4"></a>
+              <div class="img__hidden">
+                <a href="#" class="button">В корзину</a>
+                <a href="#" class="add link">Добавить к сравнению</a>
+              </div>
+              <div class="product__item--label">
+                <a href="#" class="product__link link">Селфи-палка «Следуй за <br> мной»</a>
+                <p class="product__price">4 900 руб.</p>
+              </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="pagination__item pagination__link link">Назад</a>
+              <div class="pages">
+                <a href="#" class="pagination__link page__item link">1</a>
+                <a href="#" class=" pagination__link page__item link">2</a>
+                <a href="#" class=" pagination__link page__item link">3</a>
+              </div>
+                <a href="#" class="pagination__item pagination__link link">Вперед</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+<footer class="catalog__footer">
+  <div class="footer__container container">
+    <div class="first-row footer__row">
+      <a href="/">
+        <img src="./img/logo-orange.png" alt="logo-2" class="footer__logo">
+      </a>
+
+      <div class="footer__submenu">
+          <div class="footer__login">
+            <a href="#" class="footer__login__link footer__link login__link link">Валентин Петухов</a>
+            <a href="#" class="footer__login__link footer__link link-grey link logout">Выйти</a>
+          </div>
+
+        <div class="footer__compare">
+          <a href="#" class="footer__compare__link footer__link">Сравнить</a>
+        </div>
+        <div class="footer__cart">
+          <a href="#" class="footer__cart__link footer__link">Корзина</a>
+        </div>
+      </div>
+    </div>
+    <div class="second-row footer__row">
+      <p class="address">г. Москва, ул. Строителей, 15</p>
+      <div class="services">
+        <a href="#" class="footer__tabs services-item">Доставка</a>
+        <a href="#" class="footer__tabs services-item">Гарантия</a>
+        <a href="#" class="footer__tabs services-item">Контакты</a>
+      </div>
+      <p class="phone-number">Тел.: +7 (495) 495-95-95</p>
+    </div>
+    <div class="third-row footer__row">
+      <div class="orange-decor-line"></div>
+      <div class="social-media">
+        <a href="#" class="link social-media__item">
+          <img src="./svg/fb.svg" alt="fb" class="fb">
+        </a>
+        <a href="#" class="link social-media__item">
+          <img src="./svg/'=%5D.svg" alt="inst" class="inst">
+        </a>
+        <a href="#" class="link social-media__item">
+          <img src="./svg/twitter.svg" alt="twitter" class="twitter">
+        </a>
+      </div>
+
+      <a href="#" class="link">
+        <img src="./svg/logo-html.svg" alt="logotype" class="logotype">
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
