@@ -41,8 +41,6 @@ body {
     flex-direction: column;
     line-height: 1;
     font-size: 15px;
-    width: 1440px;
-    TODO: delete
 }
 
 main {
@@ -914,7 +912,6 @@ footer {
     opacity: 0.3;
 }
 
-
 /*
 CATALOG
 */
@@ -1084,7 +1081,6 @@ CATALOG
     padding-top: 13px;
 }
 
-
 .range-slider {
     margin-top: 35px;
     margin-bottom: 34px;
@@ -1211,7 +1207,6 @@ CATALOG
     opacity: 0.6;
 }
 
-
 .products {
     flex-grow: 1;
 }
@@ -1294,7 +1289,7 @@ CATALOG
 
 .product__item:hover .img__hidden {
     visibility: visible;
-}       
+}
 
 .img__hidden {
     display: flex;
