@@ -1294,7 +1294,7 @@ CATALOG
 
 .product__item:hover .img__hidden {
     visibility: visible;
-}
+}       
 
 .img__hidden {
     display: flex;
