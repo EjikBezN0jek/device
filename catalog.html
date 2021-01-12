@@ -18,18 +18,18 @@
     </a>
 
     <nav>
-      <div class="submenu">
+      <div class="header__submenu">
         <label class="search w-50">
           <input type="text" class="search__input" placeholder="Поиск по сайту">
-          <div class="search-focus">
-            <button class="found-button">Найти</button>
+          <div class="search--focus">
+            <button class="search__button">Найти</button>
             <div class="underline"></div>
           </div>
         </label>
 
         <div class="login">
           <a href="#" class="login__link link">Валентин Петухов</a>
-          <a href="#" class="link-grey link logout">Выйти</a>
+          <a href="#" class="link--grey link logout">Выйти</a>
         </div>
         <div class="compare">
           <a href="#" class="compare__link link">Сравнить</a>
@@ -52,7 +52,6 @@
           <a href="#" class="menu__link link">Контакты</a>
         </li>
       </ul>
-
     </nav>
   </div>
 </header>
@@ -61,16 +60,15 @@
     <p class="title">Моноподы для селфи</p>
     <ul class="breadcrumbs">
       <li class="way breadcrumbs__main">
-        <a href="/" class="link link-grey">Главная</a>
+        <a href="/" class="link link--grey">Главная</a>
       </li>
       <li class="way breadcrumbs__catalog">
-        <a href="/catalog.html" class="link link-grey">Каталог товаров</a>
+        <a href="/catalog.html" class="link link--grey">Каталог товаров</a>
       </li>
       <li class="way breadcrumbs__category">
-        <a href="#" class="link link-grey">Моноподы для селфи</a>
+        <a href="#" class="link link--grey">Моноподы для селфи</a>
       </li>
     </ul>
-
   </div>
   <div class="main__content">
     <div class="goods">
@@ -78,7 +76,7 @@
         <div class="filter">
           <div class="filter__title">Фильтр:</div>
           <div class="filter__content">
-            <p class="filter__item--title h3">Стоимость</p>
+            <p class="filter__item--title">Стоимость</p>
             <div class="range-slider">
               <div class="grey-decor-line"></div>
               <div class="range-slider__label">
@@ -88,7 +86,7 @@
 
 
             </div>
-            <p class="filter__item--title h3">Цвет</p>
+            <p class="filter__item--title">Цвет</p>
             <div class="options">
               <label  class="option">
                 <input type="checkbox" class="option__input hidden" name="color" value="black">
@@ -116,7 +114,7 @@
                 <span class="option__title">Розовый</span>
               </label>
             </div>
-            <p class="filter__item--title h3">Bluetooth</p>
+            <p class="filter__item--title">Bluetooth</p>
             <div class="radio-set">
               <label class="radio">
               <input type="radio" class="radio__input hidden" name="Bluetooth" value="yes" checked>
@@ -129,7 +127,7 @@
                 <span class="option__title">Нет</span>
               </label>
             </div>
-            <a href="#" class="button ">Показать</a>
+            <a href="#" class="button">Показать</a>
           </div>
         </div>
 
@@ -150,7 +148,7 @@
           <div class="products__content">
             <div class="product__item">
               <a href="#"><img src="./img/item-1-jpg.png" alt="item-1"></a>
-              <div class="img__hidden">
+              <div class="img--hidden">
                 <a href="#" class="button">В корзину</a>
                 <a href="#" class="add link">Добавить к сравнению</a>
               </div>
@@ -161,7 +159,7 @@
             </div>
             <div class="product__item">
               <a href="#"><img src="./img/item-2-jpg.png" alt="item-2"></a>
-              <div class="img__hidden">
+              <div class="img--hidden">
                 <a href="#" class="button">В корзину</a>
                 <a href="#" class="add link">Добавить к сравнению</a>
               </div>
@@ -172,7 +170,7 @@
             </div>
             <div class="product__item">
               <a href="#"><img src="./img/item-3-jpg.png" alt="item-3"></a>
-              <div class="img__hidden">
+              <div class="img--hidden">
                 <a href="#" class="button">В корзину</a>
                 <a href="#" class="add link">Добавить к сравнению</a>
               </div>
@@ -183,7 +181,7 @@
             </div>
             <div class="product__item">
               <a href="#"><img src="./img/item-4-jpg.png" alt="item-4"></a>
-              <div class="img__hidden">
+              <div class="img--hidden">
                 <a href="#" class="button">В корзину</a>
                 <a href="#" class="add link">Добавить к сравнению</a>
               </div>
@@ -209,7 +207,6 @@
       </div>
     </div>
   </div>
-
 </main>
 <footer class="catalog__footer">
   <div class="footer__container container">
@@ -219,22 +216,21 @@
       </a>
 
       <div class="footer__submenu">
-          <div class="footer__login">
-            <a href="#" class="footer__login__link footer__link login__link link">Валентин Петухов</a>
-            <a href="#" class="footer__login__link footer__link link-grey link logout">Выйти</a>
+        <div class="footer__login login">
+            <a href="#" class="login__link--white footer__link login__link link">Валентин Петухов</a>
+            <a href="#" class="login__link--white footer__link link--grey link logout">Выйти</a>
           </div>
-
-        <div class="footer__compare">
-          <a href="#" class="footer__compare__link footer__link">Сравнить</a>
+        <div class="footer__compare compare">
+          <a href="#" class="compare__link--white footer__link link">Сравнить</a>
         </div>
-        <div class="footer__cart">
-          <a href="#" class="footer__cart__link footer__link">Корзина</a>
+        <div class="footer__cart cart">
+          <a href="#" class="cart__link--white footer__link link">Корзина</a>
         </div>
       </div>
     </div>
     <div class="second-row footer__row">
       <p class="address">г. Москва, ул. Строителей, 15</p>
-      <div class="services">
+      <div class="footer__menu">
         <a href="#" class="footer__tabs services-item">Доставка</a>
         <a href="#" class="footer__tabs services-item">Гарантия</a>
         <a href="#" class="footer__tabs services-item">Контакты</a>
